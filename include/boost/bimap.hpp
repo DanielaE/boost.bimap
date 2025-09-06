@@ -10,6 +10,13 @@
 
 // Convenience header
 
+#ifndef BOOST_BIMAP_HPP
+#define BOOST_BIMAP_HPP
+
+#if defined(_MSC_VER)
+#pragma once
+#endif
+
 #include <boost/bimap/bimap.hpp>
 
 namespace boost
@@ -17,3 +24,4 @@ namespace boost
     using ::boost::bimaps::bimap;
 }
 
+#endif
